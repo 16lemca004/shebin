@@ -1,5 +1,5 @@
 
-echo "Enter a string to be entered:"
+echo "Enter a string "
 read str
 echo
 len=`echo $str | wc -c`
@@ -12,10 +12,10 @@ k=`echo $str | cut -c $i`
 l=`echo $str | cut -c $len`
 if test $k != $l
 then
-echo "String is not palindrome"
+echo "The String is not palindrome"
 exit
 fi
 i=`expr $i + 1`
 len=`expr $len - 1`
 done
-echo "String is palindrome"
+echo "The String is palindrome"
