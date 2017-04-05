@@ -7,3 +7,4 @@ scanf("%d %d",&a,&b);
 sum= a + b;
 printf("sum is %d",sum);
 }
+enna pullaaa
